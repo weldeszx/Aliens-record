@@ -1,0 +1,25 @@
+.form-group{
+    padding: 10px;
+}
+
+.jumbotron {
+    background-image: url('./UFO-header.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    border: solid #B5BBB9 5px;
+    height: 100%;}
+/* 
+    html { 
+        background-image: url('./starry-sky.jpg');
+        background-repeat: no-repeat; 
+    } */
+   
+    body {
+        background-image: url('./715.jpg');
+        background-position: center center;
+        background-repeat: repeat;
+        background-attachment:fixed;
+        /* background-size: cover; */
+        background-color: transparent;
+    }
