@@ -1,0 +1,19 @@
+{
+  "name": "Aliens-record",
+  "scripts": {
+  },
+  "env": {
+    "HEROKU_POSTGRESQL_TEAL_URL": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+    "heroku-postgresql",
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+
+  ]
+}
