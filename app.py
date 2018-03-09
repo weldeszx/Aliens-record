@@ -5,8 +5,8 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
-#DATABASE_URL = os.environ.get('DATABASE_URL', 'sqlite:////tmp/flask_app.db')
-DATABASE_URL = "postgres://tmlbegjycyjyal:b67285e2dab7bf4d476e0575d242435c932e6d7a98a0c38a51490487ea032b14@ec2-50-17-206-214.compute-1.amazonaws.com:5432/d4ui80ulr8l10s"
+DATABASE_URL = os.environ.get('DATABASE_URL', 'sqlite:////tmp/flask_app.db')
+# DATABASE_URL = "postgres://tmlbegjycyjyal:b67285e2dab7bf4d476e0575d242435c932e6d7a98a0c38a51490487ea032b14@ec2-50-17-206-214.compute-1.amazonaws.com:5432/d4ui80ulr8l10s"
 
 app.config['SQLALCHEMY_DATABASE_URI'] = DATABASE_URL
 db = SQLAlchemy(app)
